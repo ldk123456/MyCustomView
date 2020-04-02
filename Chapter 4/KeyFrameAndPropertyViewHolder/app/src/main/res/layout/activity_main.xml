@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <com.example.keyframeandpropertyviewholder.MyTextView
+        android:id="@+id/ani_text"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@android:color/darker_gray"
+        android:gravity="center" />
+
+    <ImageView
+        android:id="@+id/ani_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/phone"
+        android:layout_gravity="center" />
+
+</LinearLayout>
